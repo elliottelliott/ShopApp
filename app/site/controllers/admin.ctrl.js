@@ -14,7 +14,7 @@
 			$state.go('auth');
 		}
 					
-		adminVm.products;
+		adminVm.products = [];
 		if(adminVm.products.length > 0 ){
 			adminVm.is_products = true;
 		}
